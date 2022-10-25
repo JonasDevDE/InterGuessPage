@@ -1,0 +1,72 @@
+:root {
+    --background-color: black;
+    --elementary-color: #090909;
+}
+
+.card {
+    background-color: var(--elementary-color);
+    padding: 3%;
+}
+
+.container-fluid {
+    justify-content: center;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#header {
+    background-color: var(--elementary-color);
+    padding: 1%;
+}
+
+#banner {
+    background-image: url("https://media.discordapp.net/attachments/826725787495038987/1034152192292180081/Adobe_Express_20221024_1911270_1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#body {
+    background-color: var(--background-color);
+    justify-content: center;
+    justify-items: center;
+    padding: 5% 15%;
+}
+
+#footer {
+    background-color: var(--elementary-color);
+    justify-content: center;
+}
+
+#footer div {
+    margin: 5% 1% 4%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    transition-duration: 0.3s;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition-duration: 0.3s;
+    color: lightgray;
+}
+
+* {
+    font-size: 102%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    background-color:  var(--elementary-color);;
+}
